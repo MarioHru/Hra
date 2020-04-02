@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <style>
+      #Canvas {
+        border: 5px solid orange;
+      }
+      img {
+        display: none;
+      }
+      #instrukcie {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img id="hrac1" width="207px" height="390px" src="/assets/hrac1.png" />
+    <img
+      id="background"
+      width="1365"
+      height="768"
+      src="/assets/background.png"
+    />
+    <img
+      id="instructions"
+      width="1365"
+      height="768"
+      src="/assets/instr.png"
+    />
+    <canvas id="Canvas" width="1365" height="768">Error</canvas>
+
+    <script language="javascript" type="text/javascript" src="src/main.js"/></script>
+
+    <button onclick="instructions()">Insructions</button>
+  </body>
+</html>

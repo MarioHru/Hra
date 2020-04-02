@@ -1,2 +1,0 @@
-# Hra
-Created with CodeSandbox
